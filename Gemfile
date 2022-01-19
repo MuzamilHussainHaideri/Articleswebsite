@@ -31,6 +31,14 @@ gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 
 gem 'jquery-rails'
 
+gem 'font-awesome-sass', '~> 5.15.1'
+
+gem 'bootstrap-sass-extras', '~> 0.1.0'
+
+gem 'devise', '~> 4.8', '>= 4.8.1'
+
+gem 'simple_form', '~> 5.1'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
@@ -73,4 +81,9 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
+end
+
+group :production do
+gem 'pg', '~> 1.3.0.rc3'
+gem 'rails_12factor', '~> 0.0.3'
 end
