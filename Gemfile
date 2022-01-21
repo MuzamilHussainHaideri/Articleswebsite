@@ -39,6 +39,7 @@ gem 'devise', '~> 4.8', '>= 4.8.1'
 
 gem 'simple_form', '~> 5.1'
 
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
